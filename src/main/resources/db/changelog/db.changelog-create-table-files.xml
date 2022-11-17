@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
          https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-    <changeSet id="0.3" author="vladsemikin3@gmail.com">
+    <changeSet id="0.3" author="amando@yandex.ru">
         <createTable tableName="files">
             <column name="id" type="varchar(255)">
                 <constraints primaryKey="true"/>
